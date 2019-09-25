@@ -1,0 +1,12 @@
+Ejercicio de modelizacion predictiva, modelo supervisado de K-vecinos
+El dataset contien imagenes de numeros escritos a mano. Describe pixeles de imagenes codificadas con valores numericos del 0 al 16.
+
+
+Digits_doc --> Documento de word con la explicacion de todos los algoritmos realizados.
+Digits*.py --> Codigo Python
+  Digits_LoO_CV           --> Comparacion de LeaveOneOut y CV
+  Digits_Pie_Chart        --> Grafica y Accuracy
+  Digits_Pesos            --> Comparar los pesos de la distancia en CV
+  Digits_compare_metrics  -->  Comparar los resultados con las metricas: "euclidean", "manhattan", "chebyshev", "minkowski", "l1", "l2", "cityblock", 'hamming', 'jaccard', 'kulsinski
+  DigitsKNN1, DigitsKNN2, DigitsKNN3, DigitsKNN4 -
+                          --> Aplicar el algoritmo de K-vecinos con n = 1,2,3 y 4
