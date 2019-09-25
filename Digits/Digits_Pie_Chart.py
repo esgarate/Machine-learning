@@ -1,4 +1,7 @@
 from sklearn.datasets import load_digits
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import StratifiedShuffleSplit
+from sklearn.metrics import accuracy_score
 import numpy as np 
 import matplotlib.pyplot as plt
 misdatos=load_digits()    #cargo los datos

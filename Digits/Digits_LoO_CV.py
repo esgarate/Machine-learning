@@ -1,5 +1,7 @@
+            #COMPARACION DE LOS METODOS DE LEAVEONEOYT Y CV
+
 from sklearn.grid_search import GridSearchCV
-from sklearn.datasets import load_digits
+from sklearn.datasets import load_digit
 from sklearn.neighbors import KNeighborsClassifier
 import numpy as np 
 from  sklearn.model_selection import LeaveOneOut
